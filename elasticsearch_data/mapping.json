@@ -1,0 +1,38 @@
+{
+  "speech_index": {
+    "mappings": {
+      "properties": {
+        "L": {
+          "type": "integer"
+        },
+        "embedding": {
+          "type": "dense_vector",
+          "dims": 768,
+          "index": true,
+          "similarity": "cosine"
+        },
+        "end_frame": {
+          "type": "integer"
+        },
+        "end_sec": {
+          "type": "float"
+        },
+        "file": {
+          "type": "keyword"
+        },
+        "start_frame": {
+          "type": "integer"
+        },
+        "start_sec": {
+          "type": "float"
+        },
+        "text": {
+          "type": "text"
+        },
+        "video_name": {
+          "type": "keyword"
+        }
+      }
+    }
+  }
+}
