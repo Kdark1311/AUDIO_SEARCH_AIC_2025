@@ -1,1 +1,35 @@
-elasticsearh == 
+# ============================================
+# AUDIO SEARCH SYSTEM - REQUIREMENTS
+# Compatible with Python 3.8+
+# ============================================
+
+# Core Dependencies
+# ----------------------------------------
+
+# Elasticsearch Client
+elasticsearch==8.11.0
+
+# Sentence Transformers for Embeddings
+sentence-transformers>=2.2.0
+
+# Progress Bar
+tqdm>=4.65.0
+
+# ============================================
+# Optional Dependencies
+# ============================================
+
+# GPU Support (Uncomment if you have NVIDIA GPU)
+# torch>=2.0.0
+# Install with: pip install torch --index-url https://download.pytorch.org/whl/cu118
+
+# ============================================
+# Dependencies installed automatically:
+# ----------------------------------------
+# transformers (via sentence-transformers)
+# torch (CPU version, via sentence-transformers)
+# numpy
+# scikit-learn
+# scipy
+# huggingface-hub
+# ============================================
