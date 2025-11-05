@@ -9,7 +9,7 @@ def force_delete_index():
     """Xóa index ngay lập tức - KHÔNG hỏi xác nhận"""
     
     HOST = "http://localhost:9200"
-    INDEX_NAME = "speech_index_vn"
+    INDEX_NAME = "ocr_index"
     
     print("🗑️  FORCE DELETE - Đang xóa index...")
     
