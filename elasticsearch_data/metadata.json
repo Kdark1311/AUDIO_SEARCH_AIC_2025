@@ -1,7 +1,0 @@
-{
-  "index_name": "speech_index",
-  "total_documents": 82806,
-  "total_batches": 83,
-  "batch_size": 1000,
-  "note": "embedding=None will be regenerated on import"
-}
